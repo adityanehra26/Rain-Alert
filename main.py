@@ -2,19 +2,19 @@ import json
 import smtplib
 import requests
 # ------------ Email -------------#
-my_email = "studydemo26@gmail.com"
-send_to = "gullupagal@gmail.com"
-password = "Root@2021"
+my_email = " "
+send_to = " "
+password = " "
 
 # ------------ API ------------- #
-api_key = "bf8f38b6df121ed81f80df037c1e6e8b"
+api_key = " "
 api_url = "http://api.openweathermap.org/data/2.5/weather?q=Jaipur,India&APPID=bf8f38b6df121ed81f80df037c1e6e8b"
 one_call_url = "https://api.openweathermap.org/data/2.5/onecall"
 parameter = {
     "lat": 26.9167, "lon": 75.8167,
     "units": "metric",
     "exclude": "current,daily,minutely",
-    "appid": "bf8f38b6df121ed81f80df037c1e6e8b"
+    "appid": " "
 }
 response = requests.get(url=one_call_url, params=parameter)
 response.raise_for_status()
